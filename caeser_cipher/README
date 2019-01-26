@@ -1,0 +1,9 @@
+# Description
+This is just an example implementation of the Caeser Cipher. The cipher picks
+a rotation factor and rotates each letter by that factor. For example, if our
+factor was 3 and we had the letter 'a', we could apply the cipher by adding 3
+to 'a' to give us 'd'. If we applied it to a longer string like "cat", we
+would get "fdw".
+
+# Usage:
+# Examples
