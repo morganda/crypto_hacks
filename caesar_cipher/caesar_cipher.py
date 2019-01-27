@@ -1,10 +1,15 @@
 #!/bin/python3
 
+"""
+Caesar Cipher Implmentation
+"""
+
 import sys
 import click
 
 
 def apply_rotation(c, factor):
+    """Applies a shift of factor to the letter denoted by c"""
     if c.isalpha():
         lower = ord('A') if c.isupper() else ord('a')
         c = chr(lower + ((ord(c) - lower + factor) % 26))
@@ -12,6 +17,7 @@ def apply_rotation(c, factor):
 
 
 def caesar_cipher(s, k):
+    """Iterates through each letter and constructs the cipher text"""
     new_message = ''
     factor = k % 26
     for c in s:
