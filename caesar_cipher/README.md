@@ -6,9 +6,9 @@ to 'a' to give us 'd'. If we applied it to a longer string like "cat", we
 would get "fdw".
 
 # Usage:
-Usage: caeser_cipher.py [OPTIONS] TEXT FACTOR
+Usage: caesar_cipher.py [OPTIONS] TEXT FACTOR
 
-  text - the string to apply the caeser cipher to
+  text - the string to apply the caesar cipher to
   factor - int for how many rotations to apply to each char
 
 Options:
@@ -17,8 +17,8 @@ Options:
 # Examples
 
 ```
-$> python3 caeser_cipher.py cat 3
+$> python3 caesar_cipher.py cat 3
 fdw
-$> python3 caeser_cipher.py -- fdw -3
+$> python3 caesar_cipher.py -- fdw -3
 cat
 ```

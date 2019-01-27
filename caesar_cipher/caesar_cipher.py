@@ -22,14 +22,14 @@ def caesar_cipher(s, k):
 @click.command()
 @click.argument('text', type=str)
 @click.argument('factor', type=int)
-def caeser(text, factor):
+def caesar(text, factor):
     """
     \b
-    text - the string to apply the caeser cipher to
+    text - the string to apply the caesar cipher to
     factor - int for how many rotations to apply to each char
     """
     print(caesar_cipher(text, factor))
 
 
 if __name__ == '__main__':
-    caeser()
+    caesar()
