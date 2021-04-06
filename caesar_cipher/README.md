@@ -6,6 +6,7 @@ to 'a' to give us 'd'. If we applied it to a longer string like "cat", we
 would get "fdw".
 
 # Usage:
+<pre>
 Usage: caesar_cipher.py [OPTIONS] TEXT FACTOR
 
   text - the string to apply the caesar cipher to
@@ -13,6 +14,7 @@ Usage: caesar_cipher.py [OPTIONS] TEXT FACTOR
 
 Options:
   --help  Show this message and exit.
+</pre>
 
 # Examples
 
